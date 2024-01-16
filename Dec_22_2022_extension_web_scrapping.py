@@ -27,7 +27,7 @@ for tr_count, row in enumerate(table_row, 1):
 my_new_ext_list = my_ext_list[1:]
 print(my_new_ext_list)
 
-root_directory = r'C:\Users\pkcar\Downloads'
+root_directory = r'filelocation needs to be entered'
 file_name = 'ext.json'
 
 new_file = open(os.path.join(root_directory, file_name), 'w')
